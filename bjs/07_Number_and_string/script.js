@@ -1,13 +1,71 @@
 let lastOperand = 0;
 let operation = null;
+let finaltext;
 
 // Связываем поле input с переменной inputWindow
 const inputWindow = document.querySelector('#inputWindow');
+const resultText = document.querySelector('#resultText');
 
 //При нажатии на кнопку #btn_clr, очищаем значения в input
 document.querySelector('#btn_clr').addEventListener('click', function () {
     lastOperand = 0;
     operation = null;
+    inputWindow.value = '';
+})
+
+document.querySelector('.col').addEventListener ('click', function(){
+    finalText = inputWindow.value;
+    resultText.textContent = finalText;
+});
+
+document.querySelector('#btn_result').addEventListener('click', function(){
+if (operation === 'sum'){
+    const result = lastOperand + parseInt(inputWindow.value);
+    operation = null;
+    lastOperand = 0;
+    inputWindow.value = result;
+}
+if (operation === 'def'){
+    const result = lastOperand - parseInt(inputWindow.value);
+    operation = null;
+    lastOperand = 0;
+    inputWindow.value = result;
+}
+if (operation === 'del'){
+    const result = lastOperand / parseInt(inputWindow.value);
+    operation = null;
+    lastOperand = 0;
+    inputWindow.value = result;
+}
+if (operation === 'umn'){
+    const result = lastOperand * parseInt(inputWindow.value);
+    operation = null;
+    lastOperand = 0;
+    inputWindow.value = result;
+}
+})
+
+document.querySelector('#btn_sum').addEventListener('click', function(){
+    lastOperand = parseInt(inputWindow.value);
+    operation = 'sum';
+    inputWindow.value = '';
+})
+
+document.querySelector('#btn_def').addEventListener('click', function(){
+    lastOperand = parseInt(inputWindow.value);
+    operation = 'def';
+    inputWindow.value = '';
+})
+
+document.querySelector('#btn_del').addEventListener('click', function(){
+    lastOperand = parseInt(inputWindow.value);
+    operation = 'del';
+    inputWindow.value = '';
+})
+
+document.querySelector('#btn_umn').addEventListener('click', function(){
+    lastOperand = parseInt(inputWindow.value);
+    operation = 'umn';
     inputWindow.value = '';
 })
 

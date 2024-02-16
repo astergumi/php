@@ -7,8 +7,18 @@
     text-align: end;
     font-size: x-large;
 }
-/*Задаем цвет при наведении*/
-.colorcalc:hover{
+
+.colorcalc{
     background-color: yellow;
     color: black;
+}
+
+/*Задаем цвет при наведении*/
+.colorcalc:hover{
+    background-color: black;
+    color: yellow;
+}
+
+.card-body{
+    background-color: rgb(200, 186, 186);
 }
