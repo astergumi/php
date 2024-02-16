@@ -7,3 +7,8 @@
     text-align: end;
     font-size: x-large;
 }
+/*Задаем цвет при наведении*/
+.colorcalc:hover{
+    background-color: yellow;
+    color: black;
+}
