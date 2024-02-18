@@ -1,6 +1,7 @@
+alert(`Загадайте любое целое число от 0 до 100, а я его угадаю`);
 let minValue = parseInt(prompt('Минимальное знание числа для игры','0'));
 let maxValue = parseInt(prompt('Максимальное знание числа для игры','100'));
-alert(`Загадайте любое целое число от ${minValue} до ${maxValue}, а я его угадаю`);
+alert(`Вы загадали целое число от ${minValue} до ${maxValue}, угадываю...`);
 let answerNumber  = Math.floor((minValue + maxValue) / 2);
 let orderNumber = 1;
 let gameRun = true;
