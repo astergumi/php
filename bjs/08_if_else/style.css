@@ -2,3 +2,9 @@
     height: 100vh;
     font-family: 'Open Sans', monospace;
 }
+
+.backLink{
+    padding-left: 50px;
+    color: black;
+    font-size: 30px;
+}
