@@ -3,7 +3,7 @@
 
 Сайт доступен по ссылке (скопируйте ссылку и вставьте в адресную строку): https://yaosipovpavel.github.io/php/index.html
 
-Либо нажмите на анкор: [Перейти на сайт](https://yaosipovpavel.github.io/php/index.html/)
+Либо нажмите на анкор: [Перейти на сайт](https://yaosipovpavel.github.io/php/index.html)
 
 Ниже представлена навигационная панель:
 
