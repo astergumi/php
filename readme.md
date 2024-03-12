@@ -9,4 +9,4 @@
 
 * [Калькулятор](https://yaosipovpavel.github.io/php/bjs/07_Number_and_string/index.html)
 * [Угадайка](https://yaosipovpavel.github.io/php//bjs/08_if_else/index.html)
-* [В разработке](https://yaosipovpavel.github.io/php/bjs/10_function_object/index.html)
+* [Генератор случайных пользовательских данных](https://yaosipovpavel.github.io/php/bjs/10_function_object/index.html)
