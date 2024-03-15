@@ -2,6 +2,12 @@ body {
     background-color: rgb(53, 53, 53);
 }
 
+.backLink{
+    padding-left: 50px;
+    color: black;
+    font-size: 30px;
+}
+
 @font-face {
     font-family: 'Netflix';
     src: url('../fonts/Netflix-(Bebas-Neue).ttf');
