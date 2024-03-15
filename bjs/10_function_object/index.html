@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Генератор случайных пользователей</title>
@@ -22,15 +21,24 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col">
-                                <h3 class="card-title"><span id="surnameOutput">Генерация фамилии</span></h3>
+                                <h3 class="card-title">Фамилия: <span id="surnameOutput">Генерация фамилии</span></h3>
                                 <h4>Имя: <span id="firstNameOutput">Иван</span></h4>
+                                <h4>Отчество: <span id="Patronymic">Иванович</span></h4>
                                 <p>
-                                    <span id="genderOutput">Генерация пола</span>
-                                    <span>, </span>
-                                    <span id="birthYearOutput">Генерация года рождения</span>
+                                    Пол: <span id="genderOutput">Генерация пола</span>
+                                </p>
+                                <p>
+                                    Год рождения: <span id="birthYearOutput">Генерация года рождения</span>
+                                </p>
+                                <p>
+                                    Профессия: <span id="nameProfession">Генерация профессии</span>
                                 </p>
                             </div>
                         </div>
+                    </div>
+                    <div class="card-header">
+                        <button type="button" id="btnGenerate">Генерация</button>
+                        <button type="button" id="btnClear">Очистить</button>
                     </div>
                 </div>
             </div>

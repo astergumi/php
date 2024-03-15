@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(53, 53, 53);
+}
+
+@font-face {
+    font-family: 'Netflix';
+    src: url('../fonts/Netflix-(Bebas-Neue).ttf');
+}
+
+p,
+h3,
+h4 {
+    font-family: 'Netflix';
+}
+
+.card-body {
+    background-image: url(../);
+}
+
+#btnGenerate {
+    background-color: greenyellow;
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+}
+
+#btnGenerate:hover {
+    transition: 1s;
+    background-color: palegreen;
+    width: 110px;
+    height: 60px;
+}
+
+#btnClear {
+    color: white;
+    background-color: red;
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+}
+
+#btnClear:hover {
+    background-color: rosybrown;
+    transition: 1s;
+    width: 110px;
+    height: 60px;
+}
+
+.card-header {
+    color: white;
+    background-color: rgb(53, 53, 53);
+}
